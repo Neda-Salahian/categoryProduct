@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Product from '../src/Components/Product/Product'
 import ProductCreate from './Components/Product/ProductCreate';
 import NavBar from './Components/NavBar/NavBar';
+import Category from './Components/Category/Category';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Product />}/>
             <Route path="/product-create" element={<ProductCreate />} />
+            <Route path="/category" element={<Category />} />
           </Routes>
         </div>
       </BrowserRouter>

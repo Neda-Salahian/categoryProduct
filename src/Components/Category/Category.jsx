@@ -7,4 +7,4 @@ function Category()
     )
 }
 
-export default Product
+export default Category
