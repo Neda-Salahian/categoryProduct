@@ -24,8 +24,7 @@ function NavBar() {
                         >
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/product-create">Product Create</Nav.Link>
-                            
-                            <Nav.Link href="#" disabled>
+                            <Nav.Link href="/category-create">
                                 Category Create
                             </Nav.Link>
                         </Nav>

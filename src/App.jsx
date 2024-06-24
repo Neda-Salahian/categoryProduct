@@ -18,7 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Product />}/>
             <Route path="/product-create" element={<ProductCreate />} />
-            <Route path="/category" element={<Category />} />
+            <Route path="/category-create" element={<Category />} />
           </Routes>
         </div>
       </BrowserRouter>
